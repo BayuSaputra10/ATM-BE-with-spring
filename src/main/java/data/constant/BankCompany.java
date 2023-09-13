@@ -5,7 +5,8 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class BankCompany {
+public enum BankCompany {
+
   BRI("BRI"),
   BNI("BNI"),
   MANDIRI("Mandiri"),
@@ -14,6 +15,7 @@ public class BankCompany {
   ;
 
   private String name;
+
 
   public static BankCompany getByOrder(int order) {
     switch (order) {

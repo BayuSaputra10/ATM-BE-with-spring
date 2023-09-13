@@ -12,8 +12,8 @@ Harap ikuti instruksi berikut **sebelum** Anda mulai mengerjakan proyek ini:
 ---
 
 ```plaintext
-Nama Lengkap:         { MASUKKAN NAMA ANDA DISINI }
-Asal Kampus/Sekolah:  { MASUKKAN NAMA LEMBAGA ANDA DISINI }
+Nama Lengkap:         Bayu Saputra
+Asal Kampus/Sekolah:  SMK Taruna Bandar Lampung
 ```
 
 ---
@@ -21,7 +21,7 @@ Asal Kampus/Sekolah:  { MASUKKAN NAMA LEMBAGA ANDA DISINI }
 ## Heads Up
 
 > The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
-> NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+> NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 > "OPTIONAL" in this document are to be interpreted as described in
 > [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
@@ -118,6 +118,7 @@ Asal Kampus/Sekolah:  { MASUKKAN NAMA LEMBAGA ANDA DISINI }
 - [ ] Stok uang di ATM **HARUS** terbatas
 
   Jumlah standar uang yang disimpan **HARUS** Rp25.000.000,00
+
 - [ ] Jumlah maksimum per transaksi **HARUS** Rp2.500.000,00
 - [ ] Maksimum transaksi harian per rekening **HARUS** Rp5.000.000,00
 - [ ] Batasan pengeluaran maksimum hanya berlaku untuk transaksi fisik, yang berarti transaksi virtual seperti isi ulang dan transfer **TIDAK TERPENGARUH**
@@ -130,6 +131,7 @@ Asal Kampus/Sekolah:  { MASUKKAN NAMA LEMBAGA ANDA DISINI }
   - [ ] Rp100.000,00
 
   Tidak ada jumlah terbatas untuk nominal ini, dan semua nominal diasumsikan selalu tersedia di setiap ATM
+
 - [ ] Fitur Penarikan Uang dan Deposit Uang **HANYA** dapat menerima input untuk nilai kelipatan 10.000
 - [ ] Nomor telepon **HARUS** antara 3 dan 15 digit
 - [ ] Biaya transaksi antar bank **HARUS** Rp2.500
@@ -138,6 +140,7 @@ Asal Kampus/Sekolah:  { MASUKKAN NAMA LEMBAGA ANDA DISINI }
 
   `Rp10.000,00`\
   `Sepuluh Ribu Rupiah`
+
 - [ ] Token tagihan listrik **HARUS** dibuat secara acak atau prosedural, dengan `{RANDOM_UUID}_{First 8 Digit from SHA_256 of (EPOCH_MILLIS)}_{AMOUNT_OF_BOUGHT_TOKEN}`; sebagai contoh:
 
   `aaaa-bb-cc-ddd_2afcb452_50000`\
@@ -156,4 +159,4 @@ Asal Kampus/Sekolah:  { MASUKKAN NAMA LEMBAGA ANDA DISINI }
 
 _Silakan masukkan ulasan Anda di sini, hanya setelah Anda menyelesaikan project ini, baik setelah selesai atau karena batas waktu!_
 
-> ```{ TULIS REVIEW ANDA DISINI }```
+> `{ TULIS REVIEW ANDA DISINI }`
